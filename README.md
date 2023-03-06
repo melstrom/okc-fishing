@@ -1,0 +1,3 @@
+This folder contains two pairs of dta and do files, and survey materials. The dta files contain data on recreational fishing trips of fishing license holders living in Oklahoma City. The 'revealed preference' file contains actual fishing trip data, and the 'stated preference' file contains hypothetical fishing trips based on a choice experiment. The questions used to generate these data can be found in the survey materials. The do files contain the code to estimate random utility maximization (RUM) models, including welfare calculations for several hypothetical changes in fishing site quality.
+
+To use a do file, save it and the accompanying dta file to your computer. Then open the do file and update the file path for the dta file. Then run the do file.
