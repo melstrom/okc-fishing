@@ -10,7 +10,7 @@ replace playground = playground*children
 clogit choice tcost catfish sunfish playground restrooms banktrees optout, group(choice_id) cluster(angler_id)
 
 
-gen newamenity = (alternative!=2)
+gen newamenity = (optout!=1)
 preserve
 ********************************************
 ************Adding playgrounds**************
